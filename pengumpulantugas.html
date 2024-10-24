@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengumpulan Tugas Kelas 05TPLP003</title>
+    <link rel="stylesheet" type="text/css" href="webkelas003.css">
+    <style>
+        .container {
+            width: 90%;
+            max-width: 960px;
+            margin: 30px auto;
+            text-align: center;
+        }
+        h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #1a5bbc;
+        }
+        .buttons-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .task-button {
+            width: 180px;
+            padding: 10px;
+            border: none;
+            border-radius: 8px;
+            background-color: #16a085;
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .task-button:hover {
+            background-color: #149174;
+        }
+        /* footer { 
+            margin-top: 800px;
+        }*/
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 class="judul">Pengumpulan Tugas Kelas 05TPLP003</h1>
+        <p class="deskripsi">Klik nama di bawah untuk mengakses tugas pemrograman web 1 dari masing-masing mahasiswa.</p>
+    </header>
+
+    <div class="wrap">
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="absen05TPLP003.jpg">Daftar Mahasiswa</a></li>
+            </ul>
+        </nav>
+
+    <div class="container">
+        <h2>Daftar Link Website Tugas pemrograman Web 1</h2>
+        <section>
+        <div class="buttons-container">
+        
+            <script>
+                const mahasiswa = [
+                    { nama: "Ade Ahmad Mirza Sitepu", link: "https://example.com/tugas1" },
+                    { nama: "Adhi Pramana Suwarno", link: "https://adhips414.github.io/mas-adhi/" },
+                    { nama: "Adrian Dwi Ramadhani", link: "https://example.com/tugas3" },
+                    { nama: "Ahsan Nuryan", link: "https://example.com/tugas4" },
+                    { nama: "Akhmad Alvi Sahri", link: "https://ngabersmusiman.github.io/Portfolio/" },
+                    { nama: "Aldi Al Kahfi", link: "https://example.com/tugas6" },
+                    { nama: "Aly Furqaan Abduraffi", link: "https://example.com/tugas7" },
+                    { nama: "Anang Muhammad Lutfi", link: "https://anangml.github.io/AnangWeb/" },
+                    { nama: "Andika Fajar Dwi Saputro", link: "https://example.com/tugas9" },
+                    { nama: "Ari Febri Saputra", link: "https://example.com/tugas10" },
+                    { nama: "Calvin Maulana Ersa", link: "https://example.com/tugas11" },
+                    { nama: "Chairina Fachrunnida", link: "https://example.com/tugas12" },
+                    { nama: "Damars Alfi Syahri", link: "https://example.com/tugas13" },
+                    { nama: "Edgar Dani Yudistira", link: "https://example.com/tugas14" },
+                    { nama: "Eko Purwadi", link: "https://example.com/tugas15" },
+                    { nama: "Fajar Alvi Rizki", link: "https://example.com/tugas16" },
+                    { nama: "Fitra Rio Ramadan", link: "https://example.com/tugas17" },
+                    { nama: "Gilang Perdana", link: "https://gilangprdn.github.io/portofolio/" },
+                    { nama: "Hafidz Fadillah", link: "https://portfoliohafidzfadillah.vercel.app/" },
+                    { nama: "Ilham Cahyo Wicaksono", link: "https://raw.githack.com/Ilham555cw/pemprogramanweb1/refs/heads/main/Projek%20Pemprograman%20web%201/MenuHome.html" },
+                    { nama: "Ivan Afriza", link: "https://ivano66.github.io/Portofolio-Ivano/" },
+                    { nama: "Kamaluddin", link: "https://officerkd6-3-7.github.io/YoriWeb/" },
+                    { nama: "Marcelo Luciano", link: "https://example.com/tugas23" },
+                    { nama: "Maria Inasensia Mesak", link: "https://example.com/tugas24" },
+                    { nama: "Matius Enrico Melsasail", link: "https://example.com/tugas25" },
+                    { nama: "Mohammad Junialdo", link: "https://example.com/tugas26" },
+                    { nama: "Muhamad Ripqi Alamsyah", link: "https://ripqialamsyah.github.io/Portofolio-/" },
+                    { nama: "Muhamad Rizky Fadillah", link: "https://example.com/tugas28" },
+                    { nama: "Muhammad Julyanto Sarwinata", link: "https://example.com/tugas29" },
+                    { nama: "Muhammad Zidan Nursalim", link: "https://zidannursalim.github.io/Website-Personal/" },
+                    { nama: "Raihan Salman Al Parisy", link: "https://massalmannich.github.io/PORTOFOLIO-Salman-nih/" },
+                    { nama: "Rayhan Ihsan Fadhilah", link: "https://raw.githack.com/Rayhanihsanf/webnew/refs/heads/main/index.html" },
+                    { nama: "Reyvalqy", link: "https://example.com/tugas33" },
+                    { nama: "Siti Badriah", link: "https://example.com/tugas34" },
+                    { nama: "Yusuf Ali Hanaan", link: "https://example.com/tugas35" }
+                ];
+                mahasiswa.forEach((mhs) => {
+                    document.write(`
+                        <button class="task-button" onclick="window.open('${mhs.link}', '_blank')">
+                            ${mhs.nama}
+                        </button>
+                    `);
+                });
+            </script>
+        </section>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Kelas 05TPLP003. Semua Hak Dilindungi.</p>
+        <p>Create by <a href="https://discordapp.com/users/706627105256898571" class="text-red"> Junialdo</a>.</p>
+    </footer>
+
+</body>
+</html>
