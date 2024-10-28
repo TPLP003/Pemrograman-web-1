@@ -1,3 +1,3 @@
 # Pemrograman-web-1
 
-https://tplp003.github.io/Pemrograman-web-1/
+akses halaman web [Lets go](https://s.id/tplp003)
